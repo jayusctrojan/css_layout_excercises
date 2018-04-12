@@ -1,3 +1,49 @@
+main {
+  max-width: 800px;
+  /* setting font-size to 0 on the parent of a set of inline block elements removes white space between them.    */
+  font-size: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 60px;
+}
+
+.upper {
+  height: 200px;
+  width: 50%;
+  display: inline-block;
+  font-size: 0;
+  border: 1px black solid;
+}
+
+.upper-one {
+   background-color: green;
+}
+
+.upper-two {
+  background-color: blue;
+}
+
+
+.lower {
+  height: 300px;
+  width: 33.33%;
+  display: inline-block;
+  font-size: 0;
+  border: 1px black solid;
+}
+
+.lower-one {
+   background-color: grey;
+}
+
+.lower-two {
+  background-color: black;
+}
+
+.lower-three {
+  background-color: orange;
+}
+
 body * {
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
